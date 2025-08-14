@@ -1,21 +1,35 @@
-transformers
-transformers[sentencepiece]
-datasets
-sacrebleu
-rouge_score
-py7zr
-pandas
-nltk
-tqdm 
-PyYAML
-matplotlib 
-torch 
-notebook
-boto3
-mypy-boto3-s3
+# NLP and Transformers
+transformers[sentencepiece]==4.44.2
+datasets==3.0.1
+sacrebleu==2.4.3
+rouge_score==0.1.2
+nltk==3.9.1
+
+# Utilities
+pandas==2.2.2
+tqdm==4.66.4
+PyYAML==6.0.2
+matplotlib==3.9.2
+py7zr==0.21.0
+
+# Deep Learning
+torch==2.4.0
+
+# Development tools
+notebook==7.2.2
+
+# AWS integration
+boto3==1.35.23
+mypy-boto3-s3==1.35.19
+
+# Config management
 python-box==6.0.2
 ensure==1.0.2
+
+# API & Deployment
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
+
+# Install local package in editable mode
 -e .
