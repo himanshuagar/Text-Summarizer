@@ -22,20 +22,22 @@ The system allows users to input raw text and get a concise, meaningful summary.
 
 ## Project Structure
 
+```
 Text-Summarizer/
-│── artifacts/ # Stores intermediate data & models
-│── config/ # Config files (YAML)
-│── src/textSummarizer/ # Core package
-│ ├── components/ # Data ingestion, validation, transformation, training, evaluation
-│ ├── pipeline/ # Training pipelines
-│ ├── utils/ # Helper functions
-│ ├── config/ # Configuration management
-│ ├── logger.py # Logging
-│ ├── exception.py # Custom exception handling
-│── app.py # FastAPI app for deployment
-│── main.py # Orchestrates pipeline execution
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
+│── artifacts/           # Stores intermediate data & models
+│── config/              # Config files (YAML)
+│── src/textSummarizer/  # Core package
+│   ├── components/      # Data ingestion, validation, transformation, training, evaluation
+│   ├── pipeline/        # Training pipelines
+│   ├── utils/           # Helper functions
+│   ├── config/          # Configuration management
+│   ├── logger.py        # Logging
+│   ├── exception.py     # Custom exception handling
+│── app.py               # FastAPI app for deployment
+│── main.py              # Orchestrates pipeline execution
+│── requirements.txt     # Python dependencies
+│── README.md            # Project documentation
+```
 
 
 
